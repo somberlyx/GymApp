@@ -1,4 +1,4 @@
 const Generator = () => {
-  return <div>Generator</div>;
+  return <div className="min-h-screen">Generator</div>;
 };
 export default Generator;
