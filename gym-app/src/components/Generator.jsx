@@ -1,3 +1,4 @@
+import Header from "./Header";
 import SectionWrapper from "./SectionWrapper";
 
 const Generator = () => {
@@ -7,7 +8,11 @@ const Generator = () => {
         header={"generate your workout"}
         title={["It's", "Huge", "o'clock"]}
       >
-        hi how are ya'
+        <Header
+          index={"01"}
+          title={"Pick your poison"}
+          description={"Select the workout you wish to endure"}
+        />
       </SectionWrapper>
     </div>
   );
