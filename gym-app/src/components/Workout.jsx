@@ -1,5 +1,4 @@
-import React from "react";
-
-export default function Workout() {
+const Workout = () => {
   return <div>Workout</div>;
-}
+};
+export default Workout;

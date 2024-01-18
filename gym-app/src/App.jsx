@@ -1,7 +1,13 @@
+import Generator from "./components/Generator";
+import Hero from "./components/Hero";
+import Workout from "./components/Workout";
+
 function App() {
   return (
     <>
-      <h1 className="text-green-300">placeholder</h1>
+      <Hero />
+      <Generator />
+      <Workout />
     </>
   );
 }

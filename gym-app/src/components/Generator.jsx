@@ -1,5 +1,4 @@
-import React from "react";
-
-export default function Generator() {
+const Generator = () => {
   return <div>Generator</div>;
-}
+};
+export default Generator;
